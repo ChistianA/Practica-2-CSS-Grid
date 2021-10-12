@@ -1,0 +1,96 @@
+ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 87px 145px 87px 160px;
+}
+
+.nav_buttons{
+	margin-right: 65px;
+}
+
+.nav_buttons button{
+	font-family: Roboto;
+	border-style: none;
+	background-color: transparent;
+	color: #555;
+	font-size: 22px;
+	margin: 0 80px 0 80px;
+}
+
+.Notifications{
+	margin-right: 10px;
+}
+
+.Shopping-card{
+	margin-left: 15px;
+}
+
+.main_page{
+	display: flex;
+	flex-direction: column;
+}
+
+.model_images{
+	display: grid;
+	height: 600px;
+	width: 650px;
+	grid-template-columns: repeat(3, 215px);
+	grid-auto-flow: column;
+	height: 690px;
+}
+
+.model_images__outfit{
+	grid-row: 1 / 3;
+	grid-column: 1 / 3;
+}
+
+.model_images__boy{
+	grid-row: 2 / 4;
+	grid-column: 2 / 4;
+	object-fit: cover;
+	object-position: top;
+	height: 470px;
+	width: 100%;
+}
+
+.main_page__description{
+	position: absolute;
+	left: 650px;
+	width: 880px;
+	text-align: center;
+	font-size: 35px;
+	font-family: Roboto ExtraLight;
+}
+
+.main_form{
+	position: relative;
+	left: 770px;
+	bottom: 410px;
+	font-family: Roboto;
+}
+
+h1{
+	font-size: 68px;
+}
+
+.main_form p{
+	width: 600px;
+	font-size: 23px;
+	font-family: Roboto Light;
+}
+
+.main_form button{
+	margin-top: 15px;
+	font-size: 23px;
+	border-style: none;
+	color: #FFF;
+	padding: 15px;
+	width: 275px;
+	background-color: #000;
+	border-radius: 35px;
+}
+
+.back_image{
+	position: relative;
+}
