@@ -2,7 +2,7 @@ ul{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 87px 145px 87px 160px;
+	margin: 77px 145px 97px 160px;
 }
 
 .nav_buttons{
@@ -15,7 +15,7 @@ ul{
 	background-color: transparent;
 	color: #555;
 	font-size: 22px;
-	margin: 0 80px 0 80px;
+	margin: 0 80px;
 }
 
 .Notifications{
@@ -64,9 +64,9 @@ ul{
 }
 
 .main_form{
-	position: relative;
+	position: absolute;
 	left: 770px;
-	bottom: 410px;
+	bottom: 65px;
 	font-family: Roboto;
 }
 
@@ -92,5 +92,10 @@ h1{
 }
 
 .back_image{
-	position: relative;
+	position: absolute;
+	left: 1020px;
+	bottom: 40px;
+	height: 480px;
+	width: 890px;
+	z-index: -1;
 }
